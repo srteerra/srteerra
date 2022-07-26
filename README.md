@@ -8,8 +8,6 @@ I am a passionate guy who likes to work in a team and always looking for new pro
 
 ![Github stats](https://github-readme-stats.vercel.app/api?username=srteerra&show_icons=true&theme=nord)
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=srteerra&layout=compact&theme=nord)
-
 
 ### **My principal projects**
 I am currently CEO/Founder of **Doycoin**, a Dapp that seeks to stop global deforestation through Web 3.0 and cryptocurrencies. 🌲
