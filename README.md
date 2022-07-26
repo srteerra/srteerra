@@ -1,16 +1,16 @@
-### Hi there 👋
+### **Nice to meet you!** 👋
 
-<!--
-**srteerra/srteerra** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I am a passionate guy who likes to work in a team and always looking for new projects. Continuously studying and updating about technology.
 
-Here are some ideas to get you started:
+- I like cats 🐈
+- Love the music 🎵 and play some instruments 🎹
+- Study lover 📕
+![Github stats](https://github-readme-stats.vercel.app/api?username=srteerra)
+### **My principal projects**
+I am currently CEO/Founder of **Doycoin**, a Dapp that seeks to stop global deforestation through Web 3.0 and cryptocurrencies. 🌲
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=srteerra&repo=doycoin)
+
+I'm working on a project called **Garbler** where I'm also CEO/Founder. This project is going to track all the garbage trucks in a city to show them in a web application, make notifications, analytics and other stuff.
+
+![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=srteerra&repo=garbler)
