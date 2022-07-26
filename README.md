@@ -5,7 +5,7 @@ I am a passionate guy who likes to work in a team and always looking for new pro
 - I like cats 🐈
 - Love the music 🎵 and play some instruments 🎹
 - Study lover 📕
-- 
+
 ![Github stats](https://github-readme-stats.vercel.app/api?username=srteerra)
 
 ### **My principal projects**
