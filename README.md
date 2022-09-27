@@ -12,8 +12,6 @@ I am a passionate guy who likes to work in a team and always looking for new pro
 ### **My principal projects**
 I am currently CEO/Founder of **Doycoin**, a Dapp that seeks to stop global deforestation through Web 3.0 and cryptocurrencies. 🌲
 
-![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=srteerra&repo=doycoin&theme=nord&show_owner=true)
-
 I'm working on a project called **Garbler** where I'm also CEO/Founder. This project is going to track all the garbage trucks in a city to show them in a web application, make notifications, analytics and other stuff.
 
 ![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=srteerra&repo=garbler&theme=nord&show_owner=true)
