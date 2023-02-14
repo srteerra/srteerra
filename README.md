@@ -10,7 +10,7 @@ Currently looking for remote work and taking a 7 month Fullstack Web Developer B
 
 ![Github stats](https://github-readme-stats.vercel.app/api?username=srteerra&show_icons=true&theme=nord)
 
-## Achievements
+## 🏆 Achievements
 | Event             | Location         | Place          |
 | ----------------- | -----------------|--------------- |
 | Talent Land Hackathon 2022 | 📍 Guadalajara, MX | 🥉 **Semi-finalist** |
@@ -20,7 +20,7 @@ Currently looking for remote work and taking a 7 month Fullstack Web Developer B
 | Etherfuse Solana Blockchain Hackathon 2023 | 📍 CDMX, MX | **Coming soon** |
 | Talent Land Hackathon 2023 | 📍 Guadalajara, MX | **Coming soon** |
 
-## **My principal projects**
+## **♟ My principal projects**
 I am currently CEO/Founder of **Doycoin**, a Dapp that seeks to stop global deforestation through Web 3.0 and cryptocurrencies. 🌲
 
 ![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=srteerra&repo=doycoin&theme=nord&show_owner=true)
