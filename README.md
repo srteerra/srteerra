@@ -17,6 +17,7 @@ Currently looking for remote work and taking a 7 month Fullstack Web Developer B
 | Utel Hackathon 2022 | 📍 Remote | 🥈 **Second Place** |
 | Talent Blockchain Land 2022 | 📍 Monterrey, MX | 🥇 **Winner $6000 US** |
 | Etherfuse Solana Blockchain Hackathon 2023 | 📍 CDMX, MX | **Coming soon** |
+| Talent Land Hackathon 2023 | 📍 Guadalajara, MX | **Coming soon** |
 
 ## **My principal projects**
 I am currently CEO/Founder of **Doycoin**, a Dapp that seeks to stop global deforestation through Web 3.0 and cryptocurrencies. 🌲
