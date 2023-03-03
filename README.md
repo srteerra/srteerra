@@ -18,7 +18,7 @@ Currently looking for remote work and taking a 7 month Fullstack Web Developer B
 | **Utel Hackathon 2022** | 📍 Remote | 🥈 **2nd Place ($3,000 USD)** |
 | **Talent Blockchain Land Hackathon 2022,** *RSK/IOV Labs* | 📍 Monterrey, MX | 🥇 **Winner ($6,000 USD)** |
 | **Etherfuse Solana Blockchain Hackathon 2023** | 📍 CDMX, MX | 🥉 **3rd Place ($500 USD)** |
-| **Incubadora ACE-I 2023,** *Kappa* | 📍 Juarez, MX | **Coming soon** |
+| **Solana Grizzlython Hackathon,** *Dashy* | 📍 Remote | 🎗 **Participant** |
 | **Talent Land Hackathon 2023,** *Citibanamex Track* | 📍 Guadalajara, MX | **Coming soon** |
 
 ## **♟ My principal projects**
