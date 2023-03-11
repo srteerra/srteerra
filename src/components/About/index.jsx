@@ -79,7 +79,7 @@ const AboutSection = () => {
             <div className="flex flex-wrap flex-row justify-center z-10 md:justify-start">
               {skills.map(({skill, icon}, idx) => {
                 return (
-                  <Fade key={idx} direction="up" delay={`${idx}0`} fraction={0} cascade>
+                  <Fade triggerOnce key={idx} direction="up" delay={`${idx}0`} fraction={0} cascade>
                     <p
                         key={idx}
                         className="bg-gray-200 flex align-middle px-4 py-2 mr-2 mt-2 text-gray-500 rounded font-semibold"

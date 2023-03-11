@@ -12,10 +12,6 @@ import { Fade } from "react-awesome-reveal";
 
 const NAV_ITEMS = [
   {
-    label: "Home",
-    page: "home",
-  },
-  {
     label: "About",
     page: "about",
   },
@@ -43,15 +39,17 @@ export default function Navbar() {
   }, [])
 
   return (
-    <header className="w-full mx-auto px-4 sm:px-20 fixed top-0 z-50 shadow dark:bg-stone-900 bg-white">
+    <header className="w-full mx-auto p-4 sm:px-20">
       <div className="justify-between md:items-center md:flex">
         <div>
           <div className="flex items-center justify-between py-3 md:py-5 md:block">
-            <Link to="home">
-              <div className="container flex items-center space-x-2">
-                <h2 className="text-2xl font-bold">Angel Lopez</h2>
-              </div>
-            </Link>
+            <Fade triggerOnce direction="down">
+              <Link to="home">
+                <div className="container flex items-center space-x-2">
+                  <h2 className="text-2xl font-bold">Angel Lopez</h2>
+                </div>
+              </Link>
+            </Fade>
             <div className="md:hidden">
               <button
                 className="p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"
@@ -72,7 +70,7 @@ export default function Navbar() {
             <div className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0 animate__animated animate__bounce">
               {NAV_ITEMS.map((item, idx) => {
                 return (
-                  <Fade key={idx} direction="down" delay={`${idx}0`}>
+                  <Fade key={idx} triggerOnce direction="down" delay={`${idx}0`}>
                     <Link
                       key={idx}
                       to={item.page}
@@ -92,19 +90,23 @@ export default function Navbar() {
                 )
               })}
               {theme === "dark" ? (
-                <button
-                  onClick={() => setTheme("light")}
-                  className="bg-slate-100 p-2 rounded-xl"
-                >
-                  <RiSunLine size={25} color="black" />
-                </button>
+                <Fade triggerOnce direction="down" delay={600}>
+                  <button
+                    onClick={() => setTheme("light")}
+                    className="bg-slate-100 p-2 rounded-xl"
+                  >
+                    <RiSunLine size={25} color="black" />
+                  </button>
+                </Fade>
               ) : (
-                <button
-                  onClick={() => setTheme("dark")}
-                  className="bg-slate-100 p-2 rounded-xl"
-                >
-                  <RiMoonFill size={25} />
-                </button>
+                <Fade triggerOnce direction="down" delay={600}>
+                  <button
+                    onClick={() => setTheme("dark")}
+                    className="bg-slate-100 p-2 rounded-xl"
+                  >
+                    <RiMoonFill size={25} />
+                  </button>
+                </Fade>
               )}
             </div>
           </div>

@@ -31,26 +31,28 @@ const ExperienceSection = () => {
         <div className="flex flex-col space-y-10 justify-centerr align-middle md:p-4 text-left">
             {experience.map(({position, company, location, description, from, to}, idx) => {
                 return (
-                    <SlideUp offset="-300px 0px -300px 0px" key={idx}>
-                        <div className="md:w-4/6 mx-auto" key={idx}>
-                            <h1 className="text-2xl font-bold text-left capitalize">
-                                {position}, {company}
-                            </h1>
-                            <p className="text-xl font-semibold text-red-400 capitalize">
-                                {location}
-                            </p>
-                            <p className="my-2 capitalize">
-                                {from} - {to}
-                            </p>
-                            <ul className="list-disc list-inside md:pl-12 text-justify">
-                                {(description).map((desc, idx) => {
-                                    return (
-                                        <li key={idx}>{desc}</li>
-                                    )
-                                })}
-                            </ul>
-                        </div>
-                    </SlideUp>
+                    <div key={idx}>
+                        <SlideUp offset="-300px 0px -300px 0px">
+                            <div className="md:w-4/6 mx-auto">
+                                <h1 className="text-2xl font-bold text-left capitalize">
+                                    {position}, {company}
+                                </h1>
+                                <p className="text-xl font-semibold text-red-400 capitalize">
+                                    {location}
+                                </p>
+                                <p className="my-2 capitalize">
+                                    {from} - {to}
+                                </p>
+                                <ul className="list-disc list-inside md:pl-12 text-justify">
+                                    {(description).map((desc, idx) => {
+                                        return (
+                                            <li key={idx}>{desc}</li>
+                                        )
+                                    })}
+                                </ul>
+                            </div>
+                        </SlideUp>
+                    </div>
                 )
             })}
         </div>

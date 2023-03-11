@@ -1,52 +1,297 @@
 import React from "react"
 import Image from "next/image"
 import { Fade, Slide } from "react-awesome-reveal"
+import { FaVuejs } from "react-icons/fa"
+import { BiLinkExternal, BiTrophy } from "react-icons/bi"
+import { DiBootstrap, DiNodejsSmall, DiMongodb, DiHtml5, DiCss3Full, DiReact } from "react-icons/di"
+import { SiVuedotjs, SiSolidity, SiWeb3Dotjs, SiMiro, SiAdobexd, SiTailwindcss } from "react-icons/si"
+import { FiFigma } from "react-icons/fi"
+import { TbBrandNextjs } from "react-icons/tb"
 
 const experience = [
     { 
-        company: "alfatech S.A. de C.V",
-        from: "September 2020",
-        to: "December 2020",
-        position: "Frontend lead developer",
-        location: "juarez, MX (remote)",
-        description: [
-            "Guided the web development team on a project from scratch, suggested the MEVN stack.",
-            "Implemented and managed an agile methodology.",
-            "Designed UI elements and helped the UX side",
-            "Tested, coded, reviewed and delivered software on-time and acknowledged by the company"
+        event: "Incubadora ACE-II 2022",
+        track: "Doycoin",
+        date: "January 2022 - April 2022",
+        location: "Juarez, MX",
+        place: "Winner",
+        repo: "https://github.com/srteerra/doycoin",
+        stack: [
+            { skill: "Vue", icon: <FaVuejs className="my-auto"/>},
+            { skill: "Bootstrap", icon: <DiBootstrap className="my-auto"/>},
+            { skill: "Node.js", icon: <DiNodejsSmall className="my-auto"/>},
+            { skill: "Vuex", icon: <SiVuedotjs className="my-auto"/>},
+            { skill: "Solidity", icon: <SiSolidity className="my-auto"/>},
+            { skill: "Web3.js", icon: <SiWeb3Dotjs className="my-auto"/>},
         ],
+        images: [
+            {
+                name: "incubadora utcj",
+                img: <Image
+                    src="hackathons/utcj-inc.png"
+                    alt=""
+                    width={140}
+                    height={70}
+                />,
+            }
+        ]
+    },
+    { 
+        event: "Talent Land Hackathon 2022",
+        track: "AstraZeneca",
+        date: "April 2022",
+        location: "Guadalajara, MX",
+        place: "Semi-finalist",
+        repo: "https://github.com/srteerra/covid19-global-research-tracker",
+        stack: [
+            { skill: "Vue", icon: <FaVuejs className="my-auto"/>},
+            { skill: "Bootstrap", icon: <DiBootstrap className="my-auto"/>},
+            { skill: "Node.js", icon: <DiNodejsSmall className="my-auto"/>},
+            { skill: "MongoDB", icon: <DiMongodb className="my-auto"/>},
+        ],
+        images: [
+            {
+                name: "talent land",
+                img: <Image
+                    src="hackathons/talent-jalisco.png"
+                    alt=""
+                    width={200}
+                    height={100}
+                />,
+            },
+            {
+                name: "astrazeneca",
+                img: <Image
+                    src="hackathons/astrazeneca.png"
+                    alt=""
+                    width={200}
+                    height={100}
+                />
+            }
+        ]
+    },
+    { 
+        event: "Utel Hackathon",
+        track: "Chambeando",
+        date: "September 2022",
+        location: "Remote",
+        place: "2nd Place",
+        prize: "$3,000 USD",
+        stack: [
+            { skill: "HTML", icon: <DiHtml5 className="my-auto"/>},
+            { skill: "CSS", icon: <DiCss3Full className="my-auto"/>},
+            { skill: "Miro", icon: <SiMiro className="my-auto"/>},
+            { skill: "Figma", icon: <FiFigma className="my-auto"/>},
+            { skill: "AdobeXd", icon: <SiAdobexd className="my-auto"/>},
+        ],
+        images: [
+            {
+                name: "utel",
+                img: <Image
+                    src="hackathons/utel.png"
+                    alt=""
+                    width={100}
+                    height={50}
+                />,
+            },
+            {
+                name: "ucamp",
+                img: <Image
+                    src="hackathons/ucamp.png"
+                    alt=""
+                    width={100}
+                    height={50}
+                />
+            }
+        ]
+    },
+    { 
+        event: "Talent Blockchain Land Hackathon 2022",
+        track: "RSK/IOV Labs",
+        date: "November 2022",
+        location: "Monterrey, MX",
+        place: "Winner",
+        prize: "$6,000 USD",
+        repo: "https://github.com/srteerra/bitcoffee",
+        stack: [
+            { skill: "Vue", icon: <FaVuejs className="my-auto"/>},
+            { skill: "Bootstrap", icon: <DiBootstrap className="my-auto"/>},
+            { skill: "Node.js", icon: <DiNodejsSmall className="my-auto"/>},
+            { skill: "Vuex", icon: <SiVuedotjs className="my-auto"/>},
+            { skill: "Solidity", icon: <SiSolidity className="my-auto"/>},
+            { skill: "Web3.js", icon: <SiWeb3Dotjs className="my-auto"/>},
+        ],
+        images: [
+            {
+                name: "talent land",
+                img: <Image
+                    src="hackathons/talent-land.png"
+                    alt=""
+                    width={140}
+                    height={70}
+                />,
+            },
+            {
+                name: "rsk",
+                img: <Image
+                    src="hackathons/rsk.jpg"
+                    alt=""
+                    width={140}
+                    height={70}
+                />
+            }
+        ]
+    },
+    { 
+        event: "Etherfuse Solana Blockchain Hackathon 2023",
+        track: "Solana Decaf",
+        date: "February 2023",
+        location: "CDMX, MX",
+        place: "3rd Place",
+        prize: "$500 USD",
+        repo: "https://github.com/srteerra/dashy",
+        stack: [
+            { skill: "React", icon: <DiReact className="my-auto"/>},
+            { skill: "Next.js", icon: <TbBrandNextjs className="my-auto"/>},
+            { skill: "Tailwind CSS", icon: <SiTailwindcss className="my-auto"/>},
+        ],
+        images: [
+            {
+                name: "etherfuse",
+                img: <Image
+                    src="hackathons/etherfuse.png"
+                    alt=""
+                    width={140}
+                    height={70}
+                />,
+            },
+            {
+                name: "solana",
+                img: <Image
+                    src="hackathons/solana.jpg"
+                    alt=""
+                    width={140}
+                    height={70}
+                />
+            },
+            {
+                name: "decaf",
+                img: <Image
+                    src="hackathons/decaf.png"
+                    alt=""
+                    width={140}
+                    height={70}
+                />
+            }
+        ]
+    },
+    { 
+        event: "Solana Grizzlython Hackathon",
+        track: "Dashy",
+        date: "March 2023",
+        location: "Remote",
+        banner: true,
+        place: "Only Participant",
+        repo: "https://github.com/srteerra/dashy",
+        stack: [
+            { skill: "React", icon: <DiReact className="my-auto"/>},
+            { skill: "Next.js", icon: <TbBrandNextjs className="my-auto"/>},
+            { skill: "Tailwind CSS", icon: <SiTailwindcss className="my-auto"/>},
+        ],
+        images: [
+            {
+                name: "grizzlython",
+                img: <Image
+                    src="hackathons/grizzlython.png"
+                    alt=""
+                    width={1000}
+                    height={200}
+                />,
+            },
+        ]
     },
 ]
 
 const AchievementsSection = () => {
   return (
     <section id="achievements">
-      <div className="my-auto pb-12 md:pt-24 md:pb-16 mx-auto max-w-3xl px-4 sm:px-6 md:max-w-5xl">
-        <h1 className="text-center font-bold text-4xl mb-20 md:mb-12 text-white">
+      <div className="my-auto pb-12 md:py-40 mx-auto max-w-3xl px-4 sm:px-6 md:max-w-5xl">
+        <h1 className="text-center font-bold text-4xl mb-20 md:mb-12">
             Achievements
             <hr className="w-6 h-1 mx-auto my-4 bg-red-400 border-0 rounded"></hr>
         </h1>
 
-        <div className="flex flex-col space-y-10 justify-centerr align-middle md:p-4 text-left">
-            {experience.map(({position, company, location, description, from, to}, idx) => {
+        <div className="flex flex-wrap justify-center align-middle gap-12 text-left">
+            {experience.map(({event, track, location, place, repo, date, stack, prize, images, banner}, idx) => {
                 return (
-                    <div className="md:w-4/6 mx-auto" key={idx}>
-                        <h1 className="text-2xl font-bold text-left capitalize text-white">
-                            {position}, {company}
-                        </h1>
-                        <p className="text-xl font-semibold text-red-400 capitalize">
-                            {location}
-                        </p>
-                        <p className="my-2 capitalize text-white">
-                            {from} - {to}
-                        </p>
-                        <ul className="list-disc list-inside md:pl-12 text-justify text-white">
-                            {(description).map((desc, idx) => {
-                                return (
-                                    <li key={idx}>{desc}</li>
-                                )
-                            })}
-                        </ul>
+                    <div className="w-100 mx-auto shadow-lg rounded-xl dark:bg-stone-700" key={idx}>
+                        <div className="p-12">
+                            <p className="my-2 capitalize opacity-60">
+                                {date}
+                            </p>
+                            <h1 className="text-2xl font-bold text-left capitalize">
+                                {event} - <span className="font-light">{track}</span>
+                            </h1>
+                            <p className="text-xl font-semibold text-red-400 capitalize">
+                                {location}
+                            </p>
+                            {place === "Winner" &&
+                                <p className="text-xl my-6 font-bold text-justify flex align-middle text-yellow-500"><span className="flex align-middle my-auto mr-2"><BiTrophy size={20} /></span>{place} {prize ? <span> - {prize}</span> : <></>}</p>
+                            }
+                            {place === "Semi-finalist" &&
+                                <p className="text-xl my-6 font-bold text-justify flex align-middle text-stone-500 dark:text-stone-300"><span className="flex align-middle my-auto mr-2"><BiTrophy size={20} /></span>{place} {prize ? <span> - {prize}</span> : <></>}</p>
+                            }
+                            {place === "2nd Place" &&
+                                <p className="text-xl my-6 font-bold text-justify flex align-middle text-stone-500 dark:text-stone-300"><span className="flex align-middle my-auto mr-2"><BiTrophy size={20} /></span>{place} {prize ? <span> - {prize}</span> : <></>}</p>
+                            }
+                            {place === "3rd Place" &&
+                                <p className="text-xl my-6 font-bold text-justify flex align-middle text-orange-800 dark:text-orange-400"><span className="flex align-middle my-auto mr-2"><BiTrophy size={20} /></span>{place} {prize ? <span> - {prize}</span> : <></>}</p>
+                            }
+                            {place === "Only Participant" &&
+                                <p className="text-xl my-6 font-bold text-justify flex align-middle"><span className="flex align-middle my-auto mr-2"><BiTrophy size={20} /></span>{place}</p>
+                            }
+                            <p className="text-md my-6 text-justify">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore delectus natus inventore illo fugiat ipsum voluptates magnam tenetur ea illum? Velit error sapiente, obcaecati pariatur assumenda quae tenetur necessitatibus alias minus consectetur porro, quisquam minima a, vitae nemo facere qui.
+                            </p>
+                            <p className="my-2 capitalize">
+                                {repo ? <a href={repo} className="font-bold underline flex align-middle"><span className="flex align-middle my-auto mr-2"><BiLinkExternal/></span>Project link</a> : <></>}
+                            </p>
+                            <div className="flex flex-wrap flex-row justify-center z-10 md:justify-start">
+                                {(stack).map(({icon, skill}, idx) => {
+                                    return (
+                                        <Fade key={idx} direction="up" delay={`${idx}0`} triggerOnce fraction={0} cascade>
+                                            <p
+                                                key={idx}
+                                                className="bg-gray-200 flex align-middle px-4 py-2 mr-2 mt-2 text-gray-500 rounded font-semibold"
+                                            >
+                                                <span className="flex align-middle my-auto mr-2">{icon}</span> {skill}
+                                            </p>
+                                        </Fade>
+                                    )
+                                })}
+                            </div>
+                        </div>
+                        {images ? 
+                            (banner ? <div className="w-100 flex justify-center my-auto gap-4 align-middle mx-auto bg-white rounded-t-full">
+                                {(images).map(({name, img}, idx) => {
+                                    return (
+                                        <div key={idx} className="my-auto self-center">
+                                            {img}
+                                        </div>
+                                    )
+                                })}
+                            </div> : <div className="w-100 flex justify-center my-auto gap-4 align-middle pb-12 dark:pb-4 mx-auto bg-white p-6 md:rounded-t-full">
+                                <Fade direction="up" delay={1200} triggerOnce className="my-auto self-center">
+                                    {(images).map(({name, img}, idx) => {
+                                        return (
+                                            <div key={idx} className="my-auto self-center">
+                                                {img}
+                                            </div>
+                                        )
+                                    })}
+                                </Fade>
+                            </div>)
+                        : <></>}
                     </div>
                 )
             })}

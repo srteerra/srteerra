@@ -12,6 +12,7 @@ import {
   AiOutlineLinkedin,
   AiOutlineYoutube,
 } from "react-icons/ai"
+import { Fade } from "react-awesome-reveal";
 
 export default function Home() {
   return (
@@ -25,39 +26,43 @@ export default function Home() {
           <BsTelephoneFill size={25} className="w-[50px] text-lg self-center text-white dark:text-slate-900"/>
         </div>
       </div> */}
+      
       <div className="fixed z-50 left-5 bottom-5 hidden lg:block">
-        <div className="text-white flex justify-between dark:text-slate-900">
-          <div className="flex flex-col items-center justify-center gap-6">
-            <a href="https://github.com/hqasmei" rel="noreferrer" target="_blank">
-                <AiOutlineGithub
-                className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
-                size={30}
-                />
-            </a>
-            <a
-                href="https://twitter.com/hqasmei"
-                rel="noreferrer"
-                target="_blank"
-            >
-                <AiOutlineTwitter
-                className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
-                size={30}
-                />
-            </a>
-            <a
-                href="https://www.linkedin.com/in/hosnaqasmei/"
-                rel="noreferrer"
-                target="_blank"
-            >
-                <AiOutlineLinkedin
-                className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
-                size={30}
-                />
-            </a>
-            <hr className="w-32 rotate-90 h-1 mx-auto mt-16 mb-8 bg-red-400 border-0 rounded"></hr>
+        <Fade triggerOnce direction="up" delay={3000}>
+          <div className="text-white flex justify-between dark:text-slate-900">
+            <div className="flex flex-col items-center justify-center gap-6">
+              <a href="https://github.com/hqasmei" rel="noreferrer" target="_blank">
+                  <AiOutlineGithub
+                  className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
+                  size={30}
+                  />
+              </a>
+              <a
+                  href="https://twitter.com/hqasmei"
+                  rel="noreferrer"
+                  target="_blank"
+              >
+                  <AiOutlineTwitter
+                  className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
+                  size={30}
+                  />
+              </a>
+              <a
+                  href="https://www.linkedin.com/in/hosnaqasmei/"
+                  rel="noreferrer"
+                  target="_blank"
+              >
+                  <AiOutlineLinkedin
+                  className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
+                  size={30}
+                  />
+              </a>
+              <hr className="w-32 rotate-90 h-1 mx-auto mt-16 mb-8 bg-red-400 border-0 rounded"></hr>
+            </div>
           </div>
-        </div>
+        </Fade>
       </div>
+      
       <TopSection/>
       <AboutSection/>
       <ExperienceSection/>
