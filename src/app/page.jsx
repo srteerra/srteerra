@@ -14,7 +14,7 @@ import {
 import { Fade } from "react-awesome-reveal";
 import CertificatesSection from "@/components/Certificates";
 
-// hellos
+// hello
 
 export default function Home() {
   return (
