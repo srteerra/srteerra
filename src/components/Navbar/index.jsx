@@ -89,7 +89,7 @@ export default function Navbar() {
                   </Fade>
                 )
               })}
-              {theme === "dark" ? (
+              {/* {theme === "dark" ? (
                 <Fade triggerOnce direction="down" delay={600}>
                   <button
                     onClick={() => setTheme("light")}
@@ -107,7 +107,7 @@ export default function Navbar() {
                     <RiMoonFill size={25} />
                   </button>
                 </Fade>
-              )}
+              )} */}
             </div>
           </div>
         </div>

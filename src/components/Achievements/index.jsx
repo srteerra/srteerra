@@ -224,8 +224,8 @@ const AchievementsSection = () => {
         <div className="flex flex-wrap justify-center align-middle gap-12 text-left">
             {experience.map(({event, track, location, place, repo, date, stack, prize, images, banner}, idx) => {
                 return (
-                    <div className="w-100 mx-auto shadow-lg rounded-xl dark:bg-stone-700" key={idx}>
-                        <div className="p-12">
+                    <div className="w-100 mx-auto border-4 rounded-xl dark:bg-stone-700" key={idx}>
+                        <div className="md:p-12">
                             <p className="my-2 capitalize opacity-60">
                                 {date}
                             </p>

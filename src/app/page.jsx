@@ -8,11 +8,11 @@ import React from "react"
 import { BsTelephoneFill } from "react-icons/bs"
 import {
   AiOutlineGithub,
-  AiOutlineTwitter,
+  AiOutlineInstagram,
   AiOutlineLinkedin,
-  AiOutlineYoutube,
 } from "react-icons/ai"
 import { Fade } from "react-awesome-reveal";
+import CertificatesSection from "@/components/Certificates";
 
 export default function Home() {
   return (
@@ -31,24 +31,24 @@ export default function Home() {
         <Fade triggerOnce direction="up" delay={3000}>
           <div className="text-white flex justify-between dark:text-slate-900">
             <div className="flex flex-col items-center justify-center gap-6">
-              <a href="https://github.com/hqasmei" rel="noreferrer" target="_blank">
+              <a href="https://github.com/srteerra" rel="noreferrer" target="_blank">
                   <AiOutlineGithub
                   className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
                   size={30}
                   />
               </a>
               <a
-                  href="https://twitter.com/hqasmei"
+                  href="https://www.instagram.com/srteerra/"
                   rel="noreferrer"
                   target="_blank"
               >
-                  <AiOutlineTwitter
+                  <AiOutlineInstagram
                   className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
                   size={30}
                   />
               </a>
               <a
-                  href="https://www.linkedin.com/in/hosnaqasmei/"
+                  href="https://www.linkedin.com/in/angel-yadiel-lopez-rivera-a83499219/"
                   rel="noreferrer"
                   target="_blank"
               >
@@ -66,6 +66,7 @@ export default function Home() {
       <TopSection/>
       <AboutSection/>
       <ExperienceSection/>
+      {/* <CertificatesSection/> */}
       <AchievementsSection/>
       <ProjectsSection/>
     </>
