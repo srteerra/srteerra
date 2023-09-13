@@ -19,7 +19,7 @@ Currently looking for remote work and taking a 7 month Fullstack Web Developer B
 | **Talent Blockchain Land Hackathon 2022,** *RSK/IOV Labs* | 📍 Monterrey, MX | 🥇 **Winner ($6,000 USD)** |
 | **Etherfuse Solana Blockchain Hackathon 2023** | 📍 CDMX, MX | 🥉 **3rd Place ($500 USD)** |
 | **Solana Grizzlython Hackathon,** *Dashy* | 📍 Remote | 🎗 **Participant** |
-| **Talent Land Hackathon 2023,** *Citibanamex Track* | 📍 Guadalajara, MX | **Coming soon** |
+| **Talent Land Hackathon 2023,** *Citibanamex Track* | 📍 Guadalajara, MX | **Participant** |
 
 ## **♟ My principal projects**
 I am currently CEO/Founder of **Doycoin**, a Dapp that seeks to stop global deforestation through Web 3.0 and cryptocurrencies. 🌲
