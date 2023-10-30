@@ -8,49 +8,49 @@ const projects = [
   {
     name: "Bitcoffee",
     description:
-      "ThankfulThoughts is a web app that generates an appreciative sentence of something or someone you are thankful for.",
+      "Your page, your own place ☕. A Web3 platform for all content creators to continue doing what we like and enjoy.",
     image: "/bitcoffee.png",
-    github: "https://github.com/hqasmei/thankful-thoughts",
-    link: "https://thankfulthoughts.io/",
+    github: "https://github.com/srteerra/bitcoffee",
+    link: "https://github.com/srteerra/bitcoffee",
   },
   {
     name: "Doycoin",
     description:
-      "ThankfulThoughts is a web app that generates an appreciative sentence of something or someone you are thankful for.",
+      "A decetralized web application where you can plant trees with your Crypto!",
     image: "/doycoin.png",
-    github: "https://github.com/hqasmei/thankful-thoughts",
-    link: "https://thankfulthoughts.io/",
+    github: "https://github.com/srteerra/doycoin",
+    link: "https://github.com/srteerra/doycoin",
   },
   {
     name: "CGRT",
     description:
-      "ThankfulThoughts is a web app that generates an appreciative sentence of something or someone you are thankful for.",
+      "An application to solve the AstraZeneca problem, where scientists needed a place to present their ideas and research and thus connect with other researchers from different parts of the world. This idea was developed in just 2 days and reached the prototype phase.",
     image: "/cgrt.png",
-    github: "https://github.com/hqasmei/thankful-thoughts",
-    link: "https://thankfulthoughts.io/",
+    github: "https://github.com/srteerra/covid19-global-research-tracker",
+    link: "https://github.com/srteerra/covid19-global-research-tracker",
   },
   {
     name: "Garbler",
     description:
-      "ThankfulThoughts is a web app that generates an appreciative sentence of something or someone you are thankful for.",
+      "More than a garbage truck tracking platform, we're offering a free-to-use interface and data analyze for organizations.",
     image: "/garbler.png",
-    github: "https://github.com/hqasmei/thankful-thoughts",
-    link: "https://thankfulthoughts.io/",
+    github: "https://github.com/srteerra/garbler",
+    link: "https://github.com/srteerra/garbler",
   },
   {
     name: "Certchain",
     description:
-      "ThankfulThoughts is a web app that generates an appreciative sentence of something or someone you are thankful for.",
+      "Descentralized platform for certification through Blockchain, where companies and / or individuals can upload documents to validate them with these technologies and ensure a higher value varacidad.",
     image: "/certchain.png",
-    github: "https://github.com/hqasmei/thankful-thoughts",
-    link: "https://thankfulthoughts.io/",
+    github: "https://github.com/srteerra/certchain",
+    link: "https://github.com/srteerra/certchain",
   },
   {
     name: "Dashy",
-    description: "PlatoIO is a to do list app that built using the PERN stack.",
+    description: "Dashy is a decentralized platform that allows users to streamline money transfers through the use of QRs.",
     image: "/dashy.png",
-    github: "https://github.com/hqasmei/platoio",
-    link: "https://platoio.com/register",
+    github: "https://github.com/srteerra/dashy",
+    link: "https://github.com/srteerra/dashy",
   },
 ]
 
@@ -62,7 +62,7 @@ const ProjectsSection = () => {
           Projects
           <hr className="w-6 h-1 mx-auto my-4 bg-red-400 border-0 rounded"></hr>
         </h1>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+        <p>You can see more of my projects in my Github profile.</p>
       </div>
 
       <div className="flex flex-col space-y-28">
