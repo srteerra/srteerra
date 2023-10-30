@@ -47,17 +47,13 @@ const TopSection = () => {
                 </Link>
             </Fade>
             <Fade direction="up" triggerOnce delay={2000}>
-                <Link
-                    to="projects"
+                <a
+                    href="/CVen.pdf"
                     className="text-neutral-100 flex align-middle font-semibold px-6 py-3 bg-red-400 rounded shadow hover:bg-red-700 hover:cursor-pointer"
                     activeClass="active"
-                    spy={true}
-                    smooth={true}
-                    offset={-100}
-                    duration={500}
                 >
                     <span className="flex align-middle my-auto mr-2"><BsFilePdf className="my-auto"/></span> Download CV
-                </Link>
+                </a>
             </Fade>
           </div>
         </div>
