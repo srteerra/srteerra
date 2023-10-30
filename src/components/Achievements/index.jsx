@@ -15,6 +15,7 @@ const experience = [
         date: "January 2022 - April 2022",
         location: "Juarez, MX",
         place: "Winner",
+        desc: "A decentralized web application where, through donations, a staking is created to plant trees with Crypto without stopping. Because the donation is self-regenerating. A business model crafted for web3 enthusiasts",
         repo: "https://github.com/srteerra/doycoin",
         stack: [
             { skill: "Vue", icon: <FaVuejs className="my-auto"/>},
@@ -42,6 +43,7 @@ const experience = [
         date: "April 2022",
         location: "Guadalajara, MX",
         place: "Semi-finalist",
+        desc: "An application to solve the AstraZeneca problem, where scientists needed a place to present their ideas and research and thus connect with other researchers from different parts of the world. This idea was developed in just 2 days and reached the prototype phase.",
         repo: "https://github.com/srteerra/covid19-global-research-tracker",
         stack: [
             { skill: "Vue", icon: <FaVuejs className="my-auto"/>},
@@ -76,6 +78,7 @@ const experience = [
         date: "September 2022",
         location: "Remote",
         place: "2nd Place",
+        desc: "A solution was provided to the difficulty of finding jobs in Latin America for people with disabilities. Providing you with a website where they will filter the jobs of your selection and thus find the best option according to your needs.",
         prize: "$3,000 USD",
         stack: [
             { skill: "HTML", icon: <DiHtml5 className="my-auto"/>},
@@ -111,6 +114,7 @@ const experience = [
         date: "November 2022",
         location: "Monterrey, MX",
         place: "Winner",
+        desc: "Bitcoffee is a CrowdFunding Dapp on the RSK network, in which anyone can raise funds for their personal interests, campaigns, charity funds, etc as well as for their followers can follow their goals, this through the use of crypto assets such as RBTC, Stablecoins from RSK or our own token BITC (Bitcoffee Token).",
         prize: "$6,000 USD",
         repo: "https://github.com/srteerra/bitcoffee",
         stack: [
@@ -148,6 +152,7 @@ const experience = [
         date: "February 2023",
         location: "CDMX, MX",
         place: "3rd Place",
+        desc: "Dashy is a decentralized platform built under the solana blockchain that allows users to streamline money transfers through the use of easily accessible QRs.",
         prize: "$500 USD",
         repo: "https://github.com/srteerra/dashy",
         stack: [
@@ -192,6 +197,7 @@ const experience = [
         location: "Remote",
         banner: true,
         place: "Only Participant",
+        desc: "Dashy is a decentralized platform built under the solana blockchain that allows users to streamline money transfers through the use of easily accessible QRs.",
         repo: "https://github.com/srteerra/dashy",
         stack: [
             { skill: "React", icon: <DiReact className="my-auto"/>},
@@ -222,7 +228,7 @@ const AchievementsSection = () => {
         </h1>
 
         <div className="flex flex-wrap justify-center align-middle gap-12 text-left">
-            {experience.map(({event, track, location, place, repo, date, stack, prize, images, banner}, idx) => {
+            {experience.map(({event, track, location, place, repo, date, stack, prize, images, banner, desc}, idx) => {
                 return (
                     <div className="w-100 mx-auto border-4 rounded-xl dark:bg-stone-700" key={idx}>
                         <div className="md:p-12">
@@ -251,7 +257,7 @@ const AchievementsSection = () => {
                                 <p className="text-xl my-6 font-bold text-justify flex align-middle"><span className="flex align-middle my-auto mr-2"><BiTrophy size={20} /></span>{place}</p>
                             }
                             <p className="text-md my-6 text-justify">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore delectus natus inventore illo fugiat ipsum voluptates magnam tenetur ea illum? Velit error sapiente, obcaecati pariatur assumenda quae tenetur necessitatibus alias minus consectetur porro, quisquam minima a, vitae nemo facere qui.
+                                {desc || ""}
                             </p>
                             <p className="my-2 capitalize">
                                 {repo ? <a href={repo} className="font-bold underline flex align-middle"><span className="flex align-middle my-auto mr-2"><BiLinkExternal/></span>Project link</a> : <></>}
