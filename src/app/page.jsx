@@ -12,7 +12,6 @@ import {
   AiOutlineLinkedin,
 } from "react-icons/ai"
 import { Fade } from "react-awesome-reveal";
-import CertificatesSection from "@/components/Certificates";
 
 // hello
 
