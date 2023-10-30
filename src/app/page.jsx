@@ -49,7 +49,7 @@ export default function Home() {
                   />
               </a>
               <a
-                  href="https://www.linkedin.com/in/angel-yadiel-lopez-rivera-a83499219/"
+                  href="https://www.linkedin.com/in/imterra/"
                   rel="noreferrer"
                   target="_blank"
               >
