@@ -1,12 +1,13 @@
 ## **Nice to meet you!** 👋
 
+Front-End Developer Jr ☕
 I am a passionate guy who likes to work in a team and always looking for new projects. Continuously studying and learning about technology (specially Web3 and Blockchain stuff).
 
 - I like cats 🐈
 - Love the music 🎵 and play some instruments 🎹
 - Study lover 📕
 
-Currently looking for remote work and taking a 7 month Fullstack Web Developer Bootcamp at Ucamp.
+Currently looking for remote work.
 
 ![Github stats](https://github-readme-stats.vercel.app/api?username=srteerra&show_icons=true&theme=nord)
 
@@ -22,7 +23,7 @@ Currently looking for remote work and taking a 7 month Fullstack Web Developer B
 | **Talent Land Hackathon 2023,** *Citibanamex Track* | 📍 Guadalajara, MX | **Participant** |
 
 ## **♟ My principal projects**
-I am currently CEO/Founder of **Doycoin**, a Dapp that seeks to stop global deforestation through Web 3.0 and cryptocurrencies. 🌲
+I am currently Founder of **Doycoin**, a Dapp that seeks to stop global deforestation through Web 3.0 and cryptocurrencies. 🌲
 
 ![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=srteerra&repo=doycoin&theme=nord&show_owner=true)
 
