@@ -1,7 +1,7 @@
 ## **Nice to meet you!** 👋
 
 Front-End Developer Jr ☕
-I am a passionate guy who likes to work in a team and always looking for new projects. Continuously studying and learning about technology (specially Web3 and Blockchain stuff).
+I am a passionate guy who likes to work in a team and always looking for new projects. Continuously studying and learning about ReactJS, VueJS and Blockchain stuff.
 
 - I like cats 🐈
 - Love the music 🎵 and play some instruments 🎹
