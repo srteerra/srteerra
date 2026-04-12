@@ -2,7 +2,7 @@
 
 **Fullstack Developer** ☕
 
-https://srterra.work/
+Portfolio: https://srterra.work/
 
 I am a passionate guy always looking for new projects. Continuously studying and learning.
 
